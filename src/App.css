@@ -1,0 +1,144 @@
+/* Reset some default styles */
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the link tree container */
+.link-tree-container {
+  height: 100vh;
+  background-color: white;
+}
+/*End Styles for the link tree container */
+
+/* Icon style */
+.share{
+display: flex;
+align-items: end;
+justify-content: end;
+padding-top: 50px;
+margin-right: 30%;
+}
+/*End Icon style */
+
+/* Styles for the link container */
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+/*End Styles for the link container */
+
+/* Styles for individual links */
+.link {
+  padding: 10px 20px;
+  margin: 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+  color: black;
+  background: #EAECF0;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+}
+/*End Styles for individual links */
+
+/* Styles for profile */
+
+.profile-section{
+  text-align: center;
+}
+.profile-img{
+  padding-top: 70px;
+}
+
+.title{
+  font-size: 21.57px;
+  color: #101828;
+  font-weight: 700;
+  margin-bottom: 16px;
+  padding-top: 20px;
+}
+
+/* End Styles for profile */
+
+/* Social-icon */
+.Social-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 20px;
+}
+/* End Social-icon */
+
+/* Styling for Hr */
+hr{
+  width: 70%;
+  color: #EAECF0;
+  margin-top: 150px;
+
+}
+/*End Styling for Hr */
+
+/* footer-img */
+.footer-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 450px;
+  padding: 0;
+}
+
+p{
+  font-size: 17.25px;
+  font-weight: 400;
+  color: #667085;
+
+}
+/*End footer-img */
+
+/* Media Query */
+
+/* Add this media query at the end of your existing CSS file */
+@media (max-width: 767px) {
+  /* Styles for mobile screens */
+  body,
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Adjustments for the link container */
+  .link-container {
+    margin: 20px;
+  }
+
+  /* Adjustments for the profile section */
+  .profile-img {
+    padding-top: 20px; /* Reduce padding for profile image */
+  }
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  /* Adjustments for the Social Icons */
+  .Social-icon {
+    padding-top: 10px;
+    gap: 15px; 
+  }
+
+  /* Adjustments for the footer */
+  .footer-img {
+    gap: 10px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
