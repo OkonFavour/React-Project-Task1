@@ -118,7 +118,7 @@ p{
 
   /* Adjustments for the profile section */
   .profile-img {
-    padding-top: 20px; /* Reduce padding for profile image */
+    padding-top: 10px;
   }
 
   .title {
@@ -135,6 +135,10 @@ p{
   /* Adjustments for the footer */
   .footer-img {
     gap: 10px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: column;
   }
 
   p {

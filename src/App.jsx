@@ -29,8 +29,8 @@ function App() {
       </div>
 
       <div className='Social-icon'>
-        <img src={slack} alt="slack" />
-        <img src={github} alt="" />
+        <img src={slack} alt="slack" id='slack'/>
+        <img src={github} alt=""  id='git'/>
       </div>
 
       <hr />
